@@ -2,10 +2,10 @@ import pyodbc
 from datetime import datetime
 import pandas as pd
 # Configura la cadena de conexión
-server = r'GONVABUR\GONVABUR2008'  # Por ejemplo, 'localhost' o 'mi_servidor'
-database = 'SQLREGISTROPESAJES'
-username = 'BASC'
-password = 'BASC'
+server = r'·'  # Por ejemplo, 'localhost' o 'mi_servidor'
+database = 'bd'
+username = 'USR1'
+password = '123'
 conexion_str = f'DRIVER={{SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}'
 
 def obten_datos_basc():
