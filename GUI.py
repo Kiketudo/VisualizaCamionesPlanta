@@ -86,9 +86,6 @@ class TruckManagementApp(tk.Tk):
         self.expand_table_button = ttk.Button(table_frame, text="Ampliar", command=self.show_table_info)
         self.expand_table_button.pack(pady=10)
 
-        # Datos de ejemplo
-        self.load_data()
-
 
     def update_widgets(self):
         max_estancia = None
